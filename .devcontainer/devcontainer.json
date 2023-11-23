@@ -6,9 +6,6 @@
 		"ghcr.io/devcontainers/features/azure-cli:1": {
 			"installBicep": true,
 			"version": "latest"
-		},
-		"ghcr.io/devcontainers/features/github-copilot:1": {
-			"install": true
 		}
 	},
 	"postCreateCommand": "az bicep install && dotnet restore Application"

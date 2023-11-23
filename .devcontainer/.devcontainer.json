@@ -1,3 +1,4 @@
+// Path: .devcontainer/.devcontainer.json
 {
 	"name": "C# (.NET)",
 	"image": "mcr.microsoft.com/devcontainers/dotnet:0-6.0",
@@ -6,5 +7,6 @@
 			"installBicep": true,
 			"version": "latest"
 		}
-	}
+	},
+	"postCreateCommand": "az bicep install"
 }
